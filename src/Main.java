@@ -1,11 +1,10 @@
 import java.util.Arrays;
 
 public class Main {
-
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
-        System.out.println("Ñòàðûé ìàññèâ >> " + Arrays.toString(arr));
-        System.out.println("Íîâûé ìàññèâ >> " + Arrays.toString(GetCumulativeTotal(arr)));
+        System.out.println("Ð¡Ñ‚Ð°Ñ€Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð² >> " + Arrays.toString(arr));
+        System.out.println("ÐÐ¾Ð²Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð² >> " + Arrays.toString(GetCumulativeTotal(arr)));
     }
 
     public static int[] GetCumulativeTotal(int[] arr) {
